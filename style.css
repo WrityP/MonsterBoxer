@@ -1,0 +1,23 @@
+@charset "utf-8";
+body {
+    background-color: black;
+	color:white;
+	margin:20px;
+	font-size:14pt;
+	font-family:"Times New Roman", Times, serif;
+	text-align:center;
+}
+#ork_status span{
+	color:lightgreen;
+}
+.dead, .dead *{
+	color:grey;
+}
+#options_display input{
+	text-transform:capitalize;
+}
+#logs_display {
+	margin-top:2%;
+	height:300px;
+	overflow:auto;
+}
